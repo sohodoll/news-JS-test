@@ -1,20 +1,35 @@
-form {
-    background-color: pink;
-    margin-top: 100px;
-    border-radius: 40px;
-}
-.cal {
-    width: 550px;
-    height: 300px;
-    margin-left: 400px;
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
 }
 
-.button {
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+header {
+    padding: 10px 30px;
 }
-.input {
-    border-radius: 10px;
-    margin-top: 40px;
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .copyright {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+footer .copyright a {
+    color: #444;
+}
+footer .copyright a:hover {
+    color: #555;
+}
+footer .copyright:before {
+    content: '©';
 }
