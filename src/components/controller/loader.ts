@@ -12,7 +12,7 @@ interface ILoader {
 
 interface IGetResp {
     endpoint: string;
-    options: object;
+    options?: object;
 }
 
 class Loader implements ILoader {
