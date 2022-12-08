@@ -1,8 +1,5 @@
 import './index.css';
-import Loader from './components/controller/loader';
+import App from './components/app/app';
 
-const newLoader = new Loader('google', { name: 'google', id: '1' });
-
-console.log(newLoader.makeUrl({ city: 'Moscow' }, '.com'));
-
-console.log('here');
+const app = new App();
+app.start();
